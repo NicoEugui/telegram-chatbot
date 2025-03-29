@@ -15,7 +15,7 @@ Bienvenido a *NicoBot*, un bot multifunción para Telegram que te permite:
 
 ## 🧠 ¿Por qué incluir vuelos?
 
-La funcionalidad de vuelos se eligió para ampliar el valor del bot en contextos reales como viajes, vuelos demorados o llegada de familiares. Muchos usuarios buscan datos sobre vuelos sin necesidad de entrar a sitios específicos: *NimbusBot* resume esta información con solo escribir un comando o presionar un botón.
+La funcionalidad de vuelos se eligió para ampliar el valor del bot en contextos reales como viajes, vuelos demorados o llegada de familiares. Muchos usuarios buscan datos sobre vuelos sin necesidad de entrar a sitios específicos: *NicoBot* resume esta información con solo escribir un comando o presionar un botón.
 
 ---
 
