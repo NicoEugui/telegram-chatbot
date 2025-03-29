@@ -24,7 +24,7 @@ jobs:
       run: |
         ssh -i ~/.ssh/id_rsa ${{ secrets.GCE_USER }}@${{ secrets.GCE_HOST }} << 'EOF'
           cd ~/telegram-chatbot
-          git pull origin main
-          docker-compose down
-          docker-compose up -d --build
+          git pull origin main > /dev/null 2>&1
+          docker-compose down > /dev/null 2>&1
+          docker-compose up -d --build > /dev/null 2>&1
         EOF
