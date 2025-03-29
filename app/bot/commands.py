@@ -19,7 +19,7 @@ async def on_start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
             "🔹 Usa los siguientes comandos:\n"
             "`/clima [ciudad]` → Consulta el clima 🌍\n"
             "`/vuelos [código aeropuerto / número de vuelo]` → Consulta vuelos ✈️\n"
-            "`/análisis [texto]` → Analiza el sentimiento 📊\n"
+            "`/analisis [texto]` → Analiza el sentimiento 📊\n"
             "`/contador` → Ve cuántas veces has interactuado 🔢\n\n"
             "❓ Escribe `/help` si necesitas ayuda."
         ),
@@ -92,7 +92,7 @@ async def process_count(update: Update, context: ContextTypes.DEFAULT_TYPE) -> N
     messages = [
         "🎉 ¡Tu primera interacción! 🚀",
         f"💡 Has interactuado *{count}* veces. ¡Sigue explorando! ✨",
-        f"🔥 Ya llevas *{count}* interacciones. ¡Gracias por usar DeltoBot! 🚀",
+        f"🔥 Ya llevas *{count}* interacciones. ¡Gracias por usar NimbusBot! 🚀",
         f"💪 *{count}* interacciones... ¡Te estás volviendo un experto! 😎"
     ]
     

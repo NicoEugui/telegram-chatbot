@@ -23,7 +23,7 @@ async def on_help(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
             "🆘 *Comandos disponibles en NimbusBot:* 🚀\n\n"
             "`/clima [ciudad]` → Consulta el clima 🌍\n"
             "`/vuelos` → Consulta vuelos ✈️\n"
-            "`/análisis [texto]` → Analiza el sentimiento de un mensaje 📊\n"
+            "`/analisis [texto]` → Analiza el sentimiento de un mensaje 📊\n"
             "`/contador` → Ve cuántas veces has interactuado con el bot 🔢"
         ),
         parse_mode="Markdown"
